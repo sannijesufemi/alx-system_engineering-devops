@@ -6,4 +6,4 @@ ls  >>> This will list the content of the current directory and the cursor after
 
 cd ~ >>> Changes working  directory to the HOME directory
 ls -l >>> This will display the current directory in a long format
-ls -a >>> This displays the hidden files in the current directory
+ls -al >>> This displays the hidden files in the current directory
