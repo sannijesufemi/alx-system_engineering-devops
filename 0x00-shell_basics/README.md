@@ -14,3 +14,4 @@ rm /tmp/my_first_directory/betty >>> This will delete the file name betty in the
 rmdir /tmp/my_first_directory/ >>> This will delete the directory "my_first_directory" in /tmp directory
 cd - >>> This will take you to the previous directory you worked on
 ls -al . .. /boot >>> This will display all the files and hidden ones in long format in the current directory, parent of current directory and the boot directory
+file /tmp/iamafile >>> this will display the type the file belongs to  
