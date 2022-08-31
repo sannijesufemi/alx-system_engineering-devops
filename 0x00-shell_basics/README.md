@@ -12,3 +12,4 @@ mkdir /tmp/my_first_directory >>> This create a director called my_first_directo
 mv /tmp/betty /tmp/my_first_directory >>> This move a file name betty in /tmp directory to a sub-directory in /tmp parent directory
 rm /tmp/my_first_directory/betty >>> This will delete the file name betty in the sub-directory "my_first_directory", which is in the directory /tmp.
 rmdir /tmp/my_first_directory/ >>> This will delete the directory "my_first_directory" in /tmp directory
+cd - >>> This will take you to the previous directory you worked on
