@@ -4,4 +4,4 @@ pwd "\n" >>> This print the working directory and put the cursor on the next lin
 
 ls  >>> This will list the content of the current directory and the cursor after the directory.
 
-cd $HOME >>> Changes working  directory to the HOME directory
+cd ~ >>> Changes working  directory to the HOME directory
