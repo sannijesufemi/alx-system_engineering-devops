@@ -12,4 +12,4 @@ chmod 744 hello - This will add execute permission to the owner of the file 'hel
 
 chmod 754 hello - This gives execute permission to owner and group owner and read permission to other users to the file 'hello'
 
-chmod 555 hello - This gives execute permission to all the groups
+chmod 111 hello - This gives execute permission to all the groups
