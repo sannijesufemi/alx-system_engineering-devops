@@ -19,3 +19,4 @@ ln -s /bin/ls _ls_ >>> This create a soft link between /bin/ls and _ls_. This ma
 cp -u *.HTML . .. >>> This will copy file from the current directory, the file  with .htm, that are  newer file or does not exist in the parent folder
 cp -r [[:upper:]]* /tmp/u >>> This will copy all files starting with uppercase to /tmp/u
 rm ~* . >>> This will delete all file that ends with the tilda sign
+mkdir -p welcome/to/school >>> this will create a file tree of welcome -> to -> school in this fashion
