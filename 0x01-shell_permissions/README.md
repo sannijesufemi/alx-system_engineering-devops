@@ -29,3 +29,5 @@ chgrp school hello - This changes the group ownership of the file 'hello' to the
 chown vincent:staff * - This will change the ownership of all files and directories  in a directory to vincent and staff
 
 chown -h vincent:staff _hello - This will change the owner of the file _hello to these users; vincent and staff respectively.
+
+chown -from=guillaume betty hello - Changes the owner of the file hello to betty, only if the owner of the file is guillaume
