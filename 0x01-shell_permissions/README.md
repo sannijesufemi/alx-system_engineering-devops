@@ -31,3 +31,5 @@ chown vincent:staff * - This will change the ownership of all files and director
 chown -h vincent:staff _hello - This will change the owner of the file _hello to these users; vincent and staff respectively.
 
 chown -from=guillaume betty hello - Changes the owner of the file hello to betty, only if the owner of the file is guillaume
+
+#!/bin/bash - This declaration will make the file to be seen as an executable file
