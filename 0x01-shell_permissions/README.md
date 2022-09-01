@@ -12,4 +12,6 @@ chmod 744 hello - This will add execute permission to the owner of the file 'hel
 
 chmod 754 hello - This gives execute permission to owner and group owner and read permission to other users to the file 'hello'
 
-chmod 111 hello - This gives execute permission to all the groups
+chmod ugo+x hello - This gives execute permission to all the groups
+
+chmod 007 hello - Owner and group users have no permission, but all permissions (read, write and execute) is given to the user
