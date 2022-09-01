@@ -8,3 +8,5 @@ chown betty hello - Changes the ownership of the file 'hello' to the user called
 
 touch hello - This creates a file with name 'hello'
 
+chmod 764 hello - This will add execute permission to the owner of the file 'hello'
+
