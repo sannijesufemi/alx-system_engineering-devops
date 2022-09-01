@@ -26,4 +26,4 @@ mkdir -m 751 my_dir - This create a file with the permission: read, write and ex
 
 chgrp school hello - This changes the group ownership of the file 'hello' to the username 'bello'
 
-chown vincent:staff _hello - This will change the ownership of files in a directory to vincent and staff
+chown vincent:staff * - This will change the ownership of all files and directories  in a directory to vincent and staff
