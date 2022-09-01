@@ -23,3 +23,5 @@ chmod --reference=olleh hello - This set the mode of two files as the same.
 find . -type d -exec chmod a+x -- {} +\ - Add execusion permission to all folder and subfolder excluding the files. 
 
 mkdir -m 751 my_dir - This create a file with the permission: read, write and execute for the owner. read and execute for the group and execute permission for the others.
+
+chgrp school hello - This changes the group ownership of the file 'hello' to the username 'bello'
