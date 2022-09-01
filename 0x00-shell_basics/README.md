@@ -18,3 +18,4 @@ file /tmp/iamafile >>> this will display the type the file belongs to
 ln -s /bin/ls _ls_ >>> This create a soft link between /bin/ls and _ls_. This makes _ls_ like a shortcut to /bin/ls
 cp -u *.HTML . .. >>> This will copy file from the current directory, the file  with .htm, that are  newer file or does not exist in the parent folder
 cp -r [[:upper:]]* /tmp/u >>> This will copy all files starting with uppercase to /tmp/u
+rm ~* . >>> This will delete all file that ends with the tilda sign
