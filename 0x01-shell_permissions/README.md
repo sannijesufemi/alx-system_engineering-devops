@@ -15,3 +15,5 @@ chmod 754 hello - This gives execute permission to owner and group owner and rea
 chmod ugo+x hello - This gives execute permission to all the groups
 
 chmod 007 hello - Owner and group users have no permission, but all permissions (read, write and execute) is given to the user
+
+chmod 753 hello - This grant the user all permission, the user group, read and execute permission only, and other user write and execute permission
