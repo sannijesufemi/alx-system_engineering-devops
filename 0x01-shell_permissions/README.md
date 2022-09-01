@@ -18,4 +18,6 @@ chmod 007 hello - Owner and group users have no permission, but all permissions 
 
 chmod 753 hello - This grant the user all permission, the user group, read and execute permission only, and other user write and execute permission
 
-chmod --reference=olleh hello
+chmod --reference=olleh hello - This set the mode of two files as the same. 
+
+Task 11
