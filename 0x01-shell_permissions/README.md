@@ -6,3 +6,5 @@ whoami - This prints the username of the current user that is logged into the ma
 
 chown betty hello - Changes the ownership of the file 'hello' to the user called 'betty'
 
+touch hello - This creates a file with name 'hello'
+
