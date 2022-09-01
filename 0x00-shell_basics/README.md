@@ -20,3 +20,4 @@ cp -u *.HTML . .. >>> This will copy file from the current directory, the file  
 cp -r [[:upper:]]* /tmp/u >>> This will copy all files starting with uppercase to /tmp/u
 rm ~* . >>> This will delete all file that ends with the tilda sign
 mkdir -p welcome/to/school >>> this will create a file tree of welcome -> to -> school in this fashion
+ls -map | sort -d >>> List all the files and directories of the current directories seperated by commas
