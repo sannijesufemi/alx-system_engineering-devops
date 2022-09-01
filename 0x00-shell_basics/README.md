@@ -15,3 +15,4 @@ rmdir /tmp/my_first_directory/ >>> This will delete the directory "my_first_dire
 cd - >>> This will take you to the previous directory you worked on
 ls -al . .. /boot >>> This will display all the files and hidden ones in long format in the current directory, parent of current directory and the boot directory
 file /tmp/iamafile >>> this will display the type the file belongs to  
+ln -s /bin/ls _ls_ >>> This create a soft link between /bin/ls and _ls_. This makes _ls_ like a shortcut to /bin/ls
