@@ -12,3 +12,6 @@ tail -n 10 /etc/passwd - This will display the last ten lines of the content of 
 
 Head n 10 /etc/passwd - This will display the first ten lines of the content of the file passwd in the /etc directory
 
+cat iacta | Head -3 | Tail -1 - This will display the third line of the content of the file iacta
+
+
