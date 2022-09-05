@@ -25,3 +25,5 @@ find . -name "*.js" -type f -delete - This deletes all the file with the extensi
 find . -mindepth 1 -type d | wc -l - This will count the number of directories within  a current directory and exclude the current directory from the count
 
 sort | uniq -u - THis displays list of word that only appear ones
+
+grep 'root' /etc/passwd - This search through the content of the passwd file and display lines where ther word 'root' appears
