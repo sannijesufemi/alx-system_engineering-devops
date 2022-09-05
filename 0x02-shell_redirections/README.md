@@ -27,3 +27,7 @@ find . -mindepth 1 -type d | wc -l - This will count the number of directories w
 sort | uniq -u - THis displays list of word that only appear ones
 
 grep 'root' /etc/passwd - This search through the content of the passwd file and display lines where ther word 'root' appears
+
+grep -c 'bin' /etc/passwd - This display the number of lines the word 'bin' appears in the file passwd.
+
+
