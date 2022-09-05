@@ -10,8 +10,13 @@ cat /etc/passwd /etc/hosts - This print the contents of two files; passwd and ho
 
 tail -n 10 /etc/passwd - This will display the last ten lines of the content of the file passwd in the /etc directory
 
-Head n 10 /etc/passwd - This will display the first ten lines of the content of the file passwd in the /etc directory
+head -n 10 /etc/passwd - This will display the first ten lines of the content of the file passwd in the /etc directory
 
 cat iacta | Head -3 | Tail -1 - This will display the third line of the content of the file iacta
 
+Task 7
+
+ls -la > ls_cwd_content - This saves and write the content of the current working directory to the file ls_cwd_content
+
+tail -n 1 iacta > iacta 
 
