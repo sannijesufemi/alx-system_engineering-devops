@@ -41,3 +41,7 @@ tr Ac Zc - This will replace all character 'A' and 'c' from the user input with 
 tr -d Cc - This will remove both upper and lower case 'C' from user's input
 
 rev - THis reverse the text from users
+
+cut -d':' -f1,6 /etc/passwd |sort - This displays all users and their home directories sorted by users with columns 
+
+find . -empty -printf '%f\n' - The search through the current direct direct, sub directories and files for empty files and directories. It prints out the empty files and directories out one item on a single line.
