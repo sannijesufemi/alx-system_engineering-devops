@@ -30,4 +30,4 @@ grep 'root' /etc/passwd - This search through the content of the passwd file and
 
 grep -c 'bin' /etc/passwd - This display the number of lines the word 'bin' appears in the file passwd.
 
-
+grep -A 3 'bin' /etc/passwd - This display three lines after the ecountering a line with the word 'bin'
