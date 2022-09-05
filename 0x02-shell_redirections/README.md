@@ -18,5 +18,7 @@ Task 7
 
 ls -la > ls_cwd_content - This saves and write the content of the current working directory to the file ls_cwd_content
 
-tail -n 1 iacta > iacta 
+tail -n 1 iacta > iacta - This duplicate the last line of the iacta file
+
+find . -name "*.js" -type f -delete - This deletes all the file with the extension .js in the parent directory and the subdirectories
 
