@@ -23,3 +23,5 @@ tail -n 1 iacta > iacta - This duplicate the last line of the iacta file
 find . -name "*.js" -type f -delete - This deletes all the file with the extension .js in the parent directory and the subdirectories
 
 find . -mindepth 1 -type d | wc -l - This will count the number of directories within  a current directory and exclude the current directory from the count
+
+sort | uniq -u - THis displays list of word that only appear ones
