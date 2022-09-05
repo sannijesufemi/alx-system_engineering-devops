@@ -14,7 +14,7 @@ head -n 10 /etc/passwd - This will display the first ten lines of the content of
 
 cat iacta | Head -3 | Tail -1 - This will display the third line of the content of the file iacta
 
-Task 7
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) - This create a file withe name \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) and write in it 'Best School' 
 
 ls -la > ls_cwd_content - This saves and write the content of the current working directory to the file ls_cwd_content
 
@@ -47,3 +47,5 @@ cut -d':' -f1,6 /etc/passwd |sort - This displays all users and their home direc
 find . -empty -printf '%f\n' - The search through the current direct direct, sub directories and files for empty files and directories. It prints out the empty files and directories out one item on a single line.
 
 find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f - This list all files with .gif extension in the current directory and in all its subdirectories in a sorted order
+
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev - This will parse the web servers logs in TSV format as input and displays the 11 hosts or IP addresses.
