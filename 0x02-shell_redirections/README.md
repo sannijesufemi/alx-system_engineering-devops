@@ -34,4 +34,4 @@ grep -A 3 'bin' /etc/passwd - This display three lines after the ecountering a l
 
 grep -v 'root' /etc/passwd - This display lines of text that has no word 'bin' in them
 
-
+grep '^[[:upper:]]\|^[[:lower:]]' /etc/ssh/sshd_config - THis display lines of text That begins with alphets only; capital or small letter.
