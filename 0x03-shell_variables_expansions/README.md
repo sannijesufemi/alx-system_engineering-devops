@@ -22,7 +22,7 @@ echo $(($POWER / $DIVIDE)) - This compute the division of two en vironm ent vari
 
 echo $((BREATH**LOVE)) -This raise an environment variable BREATH to the power of another environment variable LOVE. It computes the exponential and print the result.
 
-echo $((2#BINARY)) - This conver the environment variable BINARY with a value in binary number system to the decimal number system.
+echo $((2#$BINARY)) - This conver the environment variable BINARY with a value in binary number system to the decimal number system.
 
 
 
