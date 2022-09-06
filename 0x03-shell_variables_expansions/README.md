@@ -24,6 +24,9 @@ echo $((BREATH**LOVE)) -This raise an environment variable BREATH to the power o
 
 echo $((2#$BINARY)) - This conver the environment variable BINARY with a value in binary number system to the decimal number system.
 
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo' - This print out all the possible combinations of two lower case letters together on a newline and excluding the letter 'oo' out of the list .
+
+
 
 
 
