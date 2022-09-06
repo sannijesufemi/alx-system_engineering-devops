@@ -11,3 +11,7 @@ echo $PATH | tr ":" "\n" | wc -l - This display the number of PATHS within a dir
 printenv - This display all the global/environment variables
 
 set - This display all local variables and environment variables, and functions
+
+BEST="School" - This will create a variable with the name 'BEST' and store the value 'School' in it...
+
+
