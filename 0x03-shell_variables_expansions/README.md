@@ -14,6 +14,12 @@ set - This display all local variables and environment variables, and functions
 
 BEST="School" - This will create a variable with the name 'BEST' and store the value 'School' in it...
 
-export BEST="School"
+export BEST="School" - This export a Global variable with the variable name 'BEST' and assign it with te value 'School'
+
+echo $(($TRUEKNOWLEDGE +128) - This add the value 128 with an environment variable TRUEKNOWLEDGE, and print it out.
+
+echo $(($POWER / $DIVIDE)) - This compute the division of two en vironm ent variables 'POWER' and 'DIVIDE' respectively, and display the result
+
+
 
 
