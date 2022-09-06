@@ -14,4 +14,6 @@ set - This display all local variables and environment variables, and functions
 
 BEST="School" - This will create a variable with the name 'BEST' and store the value 'School' in it...
 
+export BEST="School"
+
 
