@@ -28,5 +28,9 @@ echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo' - This print out all the possible
 
 printf "%.2f\n" $NUM - This display and format the value of the variable NUM to two decimal places
 
+printf "%x\n" $DECIMAL - THis convert the variable DECIMAL with value in decimal number system to hexadecimal
+
+
+
 
 
